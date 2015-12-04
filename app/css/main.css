@@ -1,0 +1,357 @@
+/*GENERAL*/
+
+.row:before, .row:after  {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+img {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../img/bg-body.jpg) repeat;
+  background-size: cover;
+  font-family: 'open_sanssemibold', sans-serif;
+  font-size: 14px;
+  height: auto !important;
+  min-height: 100%;
+  position: relative;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*END GENERAL*/
+
+
+
+/*HEADER*/
+.big-container {
+  min-width: 960px;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.main-header {
+  min-width: 1200px;
+  background-color: #727070;
+  border-bottom: 7px solid #fff;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 34px;
+}
+
+.main-header .main-header-logo {
+  padding: 10px 0 8px 10px;
+}
+
+.main-header-logo .logo-link {
+  display: block;
+}
+
+.main-header .social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.main-header .social-block {
+  padding: 26px 0 24px 0;
+}
+
+.social .social-btn {
+  display: inline-block;
+  vertical-align: top;
+  width: 38px;
+  height: 38px;
+  background-color: #f1efee;
+  margin-left: 13px;
+  border-radius: 50%;
+}
+
+.social .social-btn:first-child {
+  margin-left: 0;
+}
+
+/*END HEADER*/
+
+.main-content {
+  padding-bottom: 60px;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  width: 250px;
+}
+
+.navigation {
+  overflow: hidden;
+  border-radius: 4px;
+  margin-bottom: 35px;
+}
+
+.about-me {
+  width: 650px;
+}
+
+.navigation-list .navigation-list-link {
+  display: block;
+  text-decoration: none;
+  background-color: #f5f3f3;
+  color: rgb(114, 112, 112);
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+  font-size: 1.571428571em;
+  line-height: 1.1em;
+  padding: 16px 20px 16px 29px;
+   background-image: -moz-linear-gradient( 90deg, rgb(231,229,228) 0%, rgb(250,249,249) 94%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(231,229,228) 0%, rgb(250,249,249) 94%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(231,229,228) 0%, rgb(250,249,249) 94%, rgb(255,255,255) 100%);
+  box-shadow: 0px 2px 1px 0px rgba(17, 17, 17, 0.07),inset 0px -2px 3px 0px rgba(45, 45, 45, 0.05);
+}
+
+.navigation-list .navigation-list-link:hover {
+  background-image: -moz-linear-gradient( 90deg, rgb(194,192,192) 0%, rgb(227,225,225) 87%, rgb(230,228,228) 90%, rgb(232,231,231) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(194,192,192) 0%, rgb(227,225,225) 87%, rgb(230,228,228) 90%, rgb(232,231,231) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(194,192,192) 0%, rgb(227,225,225) 87%, rgb(230,228,228) 90%, rgb(232,231,231) 100%);
+  box-shadow: inset 0px -2px 3px 0px rgba(41, 41, 41, 0.05);
+}
+
+.navigation-list .navigation-list-link:active {
+  color: #1e7465;
+  background-image: -moz-linear-gradient( 90deg, rgb(62,183,153) 0%, rgb(126,232,206) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(62,183,153) 0%, rgb(126,232,206) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(62,183,153) 0%, rgb(126,232,206) 100%);
+  box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.16),inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
+}
+
+.main-content .navigation-list,
+.main-content .contacts-list,
+.about-me__block .experience-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts {
+  font-style: normal;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.contacts .contacts-header {
+  font-size: 1.5em;
+  margin: 0;
+  color: #d0982c;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+  padding: 7px 25px 6px 25px;
+  border: 1px solid #caa152;
+  background-color: #e8bf6e;
+  background-image: -moz-linear-gradient( 90deg, rgb(220,177,93) 0%, rgb(244,204,126) 90%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(220,177,93) 0%, rgb(244,204,126) 90%);
+  background-image: -ms-linear-gradient( 90deg, rgb(220,177,93) 0%, rgb(244,204,126) 90%);
+  box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.17),inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25);
+}
+
+.contacts .contacts-list-link {
+  display: block;
+  text-decoration: none;
+  color: #727070;
+  padding: 7px 50px 10px 97px;
+  font-size: 1em;
+  position: relative;
+  background-color: #fcfbfb;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid rgb(214, 213, 211);
+  border-bottom: 0;
+  background-image: -moz-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  box-shadow: inset 0px 2px 2px 0px rgba(114, 112, 112, 0.1);
+}
+
+.contacts .contacts-list-item:last-child {
+  border-bottom: 1px solid rgb(214, 213, 211);
+}
+
+.contacts .contacts-list-link:hover {
+  background-image: -moz-linear-gradient( 90deg, rgb(224,197,145) 0%, rgba(251,249,249,0) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(224,197,145) 0%, rgba(251,249,249,0) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(224,197,145) 0%, rgba(251,249,249,0) 100%);
+  box-shadow: inset 0px 2px 2px 0px rgba(114, 112, 112, 0.1);
+}
+
+/* END SIDEBAR */
+
+
+/* ABOUT-ME */
+
+.about-me .about-me__block {
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+
+.about-me__block .about-me__header {
+  font-size: 1.714285714em;
+
+  padding: 10px 43px 14px 43px;
+  color: #eeedec;
+  margin: 0;
+  text-shadow: 0px 1px 0px rgba(102, 101, 101, 0.004);
+  background-color: #929090;
+  background-image: -moz-linear-gradient( 90deg, rgb(123,120,120) 0%, rgb(169,168,168) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(123,120,120) 0%, rgb(169,168,168) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(123,120,120) 0%, rgb(169,168,168) 100%);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
+  border: 1px solid #636363;
+}
+
+.desc-content {
+  max-width: 380px
+}
+
+.desc-content .desc-content-items,
+.skills .skills-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about-me__block .about-me__desc {
+  padding: 31px 40px 38px 44px;
+  color: #727070;
+  background-color: #f6f5f5;
+  letter-spacing: .05em;
+  line-height: 1.4em;
+}
+
+.about-me__desc .desc-avatar {
+  margin-top: 7px;
+}
+
+.desc-avatar .avatar-box{
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 8px solid #f6f5f4;
+  background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(128,128,128) 51%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(128,128,128) 51%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(128,128,128) 51%, rgb(255,255,255) 100%);
+  box-shadow: 3.236px 2.351px 26.88px 5.12px rgba(236, 232, 227, 0.75),inset 0px 2px 24px 0px rgba(121, 121, 121, 0.23);
+}
+
+.desc-content-item .executor,
+.desc-content-item .age,
+.desc-content-item .city,
+.desc-content-item .specialization {
+  margin-right: 8px;
+}
+
+
+.desc-content .desc-content-item {
+  padding-bottom: 6px;
+}
+
+.desc-content-items .desc-content-item-last {
+  padding-bottom: 16px;
+}
+
+.skills .skills-header {
+  margin-right: 12px;
+}
+
+.skills .skills-items {
+  max-width: 235px;
+}
+
+.skills .skills-item {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.experience-list .experience-item {
+  padding-left: 94px;
+  position: relative;
+}
+
+.experience-list .experience-item:first-child {
+  padding-top: 14px;
+  padding-bottom: 31px;
+}
+
+.experience-list .experience-item {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.experience-list .experience-item:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: rgb(246, 245, 244);
+  box-shadow: inset 0px 1px 1px 0px rgba(128, 128, 128, 0.29);
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  overflow: visible;
+}
+
+.experience-list .experience-item.author {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+
+.experience-list .experience-item.author:after {
+  content: "";
+  display: none;
+}
+/* END ABOUT-ME */
+
+
+.main-footer {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background-color: #fafafa;
+  box-shadow: 0px 1px 0px 2px rgba(0, 0, 0, 0.1);
+}

@@ -1,3 +1,3 @@
 jQuery(document).ready(function($) {
-  console.log("hello Kan");
+  console.log("main page");
 });
