@@ -1,0 +1,59 @@
+.login-block {
+  max-width: 335px;
+  position: absolute;
+  left: 50%;
+  margin-left: -167.5px;
+}
+
+.authorization-title {
+  font-size: 12px;
+  color: #727070;
+  font-weight: 400;
+}
+
+.authorization-form {
+  max-width: 330px;
+  background-color: #f8f7f6;
+  overflow: hidden;
+}
+
+.authorization-email .email-field:focus {
+  outline: 0;
+}
+
+.authorization-pass .pass-field:focus {
+  outline: 0;
+}
+
+.authorization-email .email-field {
+  border: 1px solid #d6d5d3;
+  background-image: -moz-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.35),inset 0px 2px 2px 0px rgba(114, 112, 112, 0.1);
+  background-color: #f9f9fa;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 10px 28px 12px 70px;
+}
+
+.authorization-email {
+  margin-bottom: 24px;
+}
+
+
+.authorization-pass .pass-field {
+  border: 1px solid #d6d5d3;
+  background-image: -moz-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.35),inset 0px 2px 2px 0px rgba(114, 112, 112, 0.1);
+  background-color: #f9f9fa;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 10px 28px 12px 70px;
+}
+
+.authorization-save .save-me {
+  display: none;
+}

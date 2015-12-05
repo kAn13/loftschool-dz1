@@ -15,10 +15,10 @@
   <!-- bower CSS -->
   <link rel="stylesheet" href="bower/normalize-css/normalize.css">
   <!-- FONTS -->
-  <link rel="stylesheet" href="fonts/stylesheet.css">
+  <!-- <link rel="stylesheet" href="fonts/stylesheet.css"> -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/about-me.css">
   <!-- modernizr -->
   <script src="bower/modernizer/modernizr.js"></script>
 </head>
@@ -42,10 +42,10 @@
 
       <div class="social-block pull-right">
         <ul class="social">
-          <li class="social-btn social-btn-fb"><a href="#" class="social-btn-link">fb</a></li>
-          <li class="social-btn social-btn-vk"><a href="#" class="social-btn-link">vk</a></li>
-          <li class="social-btn social-btn-tw"><a href="#" class="social-btn-link">tw</a></li>
-          <li class="social-btn social-btn-gh"><a href="#" class="social-btn-link">gh</a></li>
+          <li class="social-btn"><a href="#" class="social-btn-link social-btn-fb">fb</a></li>
+          <li class="social-btn"><a href="#" class="social-btn-link social-btn-vk">vk</a></li>
+          <li class="social-btn"><a href="#" class="social-btn-link social-btn-tw">tw</a></li>
+          <li class="social-btn"><a href="#" class="social-btn-link social-btn-gh">gh</a></li>
         </ul>
       </div>
 
@@ -66,9 +66,9 @@
         <nav class="navigation">
 
           <ul class="navigation-list">
-            <li class="navigation-list-item"><a href="#" class="navigation-list-link">Обо мне</a></li>
+            <li class="navigation-list-item"><a href="#" class="navigation-list-link active">Обо мне</a></li>
             <li class="navigation-list-item"><a href="#" class="navigation-list-link">Мои Работы</a></li>
-            <li class="navigation-list-item"><a href="#" class="navigation-list-link">Обратная связь</a></li>
+            <li class="navigation-list-item last"><a href="#" class="navigation-list-link">Обратная связь</a></li>
           </ul>
 
         </nav><!-- END NAVIGATION -->
@@ -78,8 +78,8 @@
             <h2 class="contacts-header">Контакты</h2>
             <ul class="contacts-list">
               <li class="contacts-list-item"><a href="#" class="contacts-list-link link-email"><span class="link-email-underline">successkana@gmail.com</span></a></li>
-              <li class="contacts-list-item"><a href="#" class="contacts-list-link">+79539273971</a></li>
-              <li class="contacts-list-item"><a href="#" class="contacts-list-link">ir0kr_</a></li>
+              <li class="contacts-list-item"><a href="#" class="contacts-list-link link-phone">+79539273971</a></li>
+              <li class="contacts-list-item last"><a href="#" class="contacts-list-link link-skype">ir0kr_</a></li>
             </ul>
           </address><!-- END CONTACTS -->
 
@@ -92,7 +92,7 @@
 
         <section class="about-me__block">
           <h2 class="about-me__header">Основная информация</h2>
-          <div class="about-me__desc row">
+          <div class="about-me__desc main-info row">
             <div class="desc-avatar pull-left">
               <div class="avatar-box">
                 <img src="img/avatar.jpeg" height="150" width="200" class="avatar-img">
@@ -145,7 +145,7 @@
                 <div class="experience-author">"ИП Боровицкий" - Продавец дисков</div>
                 <div class="experience-date">Сентябрь 2005 - Август 2008</div>
               </li>
-               <li class="experience-item">
+               <li class="experience-item secure">
                 <div class="experience-author">"ООО Системы безопастности" - Системный администратор</div>
                 <div class="experience-date">Июнь 2008 - Июль 2010</div>
               </li>
@@ -161,11 +161,11 @@
           <h2 class="about-me__header">Образование</h2>
           <div class="about-me__desc">
             <ul class="experience-list">
-              <li class="experience-item">
+              <li class="experience-item school">
                 <div class="experience-author">Полное среднее. Физико-математический лицей № 30</div>
                 <div class="experience-date">1994 - 2004</div>
               </li>
-               <li class="experience-item">
+               <li class="experience-item graduate">
                 <div class="experience-author">Незаконченное высшее. СПБГУ ИТМО</div>
                 <div class="experience-date">Октябрь 2012 - по настоящее время</div>
               </li>
@@ -182,9 +182,10 @@
 
   </div><!-- END CONTAINER -->
 
+
   <footer class="main-footer">
     <div class="container">
-      <div class="user-block"><a href="" class="login">Вход</a></div>
+      <div class="lock-block"><a href="" class="lock">Вход</a></div>
       <div class="copyright">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его!</div>
     </div>
   </footer>
