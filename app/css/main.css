@@ -101,7 +101,7 @@ body {
   display: inline-block;
   vertical-align: top;
   width: 40px;
-  height: 41px;
+  height: 40px;
   background-color: #f1efee;
   margin-left: 10px;
   border-radius: 50%;
@@ -115,40 +115,40 @@ body {
   display: block;
   height: 100%;
   width: 100%;
-  background: url(../img/spritesheet.png) no-repeat;
+  background: url(../img/spritebox-sprite.png) no-repeat;
 }
 
 .social-btn-link.social-btn-fb {
-  background-position: -105px -4px;
+  background-position: -6px -7px;
 }
 
 .social-btn-link.social-btn-fb:hover {
-  background-position: -153px -4px;
+  background-position: -53px -7px;
 }
 
 .social-btn-link.social-btn-vk {
-  background-position: -251px -75px;
+  background-position: -99px -7px;
 }
 
 .social-btn-link.social-btn-vk:hover {
-  background-position: -259px -125px;
+  background-position: -143px -7px;
 }
 
 .social-btn-link.social-btn-tw {
-  background-position: -211px -132px;
+  background-position: -189px -7px;
 }
 
 .social-btn-link.social-btn-tw:hover {
-  background-position: -201px -182px;
+  background-position: -236px -7px;
 }
 
 
 .social-btn-link.social-btn-gh {
-  background-position: -29px -54px;
+  background-position: -283px -7px;
 }
 
 .social-btn-link.social-btn-gh:hover {
-  background-position: -77px -54px;
+  background-position: -328px -7px;
 }
 /*END HEADER*/
 
