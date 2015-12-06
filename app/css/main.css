@@ -401,6 +401,12 @@ content: "";
   list-style: none;
 }
 
+.skills-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .about-me__block .about-me__desc {
   padding: 31px 40px 37px 44px;
   color: #727070;
@@ -458,7 +464,7 @@ content: "";
   max-width: 142px;
 }
 
-.skills .skills-items {
+.skills-items {
   max-width: 243px;
   padding-top: 3px;
 
@@ -484,7 +490,7 @@ content: "";
   font-family: "OpenSansRegular";
 }
 
-.skills .skills-item {
+.skills-items .skills-item {
   background-image: -moz-linear-gradient( 90deg, rgb(233,230,228) 0%, rgb(251,249,249) 94%, rgb(255,255,255) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(233,230,228) 0%, rgb(251,249,249) 94%, rgb(255,255,255) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(233,230,228) 0%, rgb(251,249,249) 94%, rgb(255,255,255) 100%);
@@ -507,7 +513,7 @@ content: "";
   margin-left: 14px;
 }
 
-.skills .skills-item:before{
+.skills-items .skills-item:before{
     content: "";
     width: 8px;
     height: 18px;
