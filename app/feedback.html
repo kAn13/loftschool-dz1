@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru-RU">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,8 +15,7 @@
   <!-- bower CSS -->
   <link rel="stylesheet" href="bower/normalize-css/normalize.css">
   <!-- FONTS -->
-  <!-- <link rel="stylesheet" href="fonts/stylesheet.css"> -->
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="fonts/stylesheet.css">
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/feedback.css">
@@ -36,12 +35,12 @@
     <div class="big-container row">
 
       <div class="main-header-logo pull-left">
-        <a href="#" class="logo-link">
-          <img src="img/logo.png" height="71" width="95" alt="" class="logo-img">
+        <a href="index.html" class="logo-link">
+          <img src="img/logo.png" class="logo-img" alt="logo">
         </a>
       </div>
 
-       <div class="social-block pull-right">
+      <div class="social-block pull-right">
         <ul class="social">
           <li class="social-btn"><a href="#" class="social-btn-link social-btn-fb">fb</a></li>
           <li class="social-btn"><a href="#" class="social-btn-link social-btn-vk">vk</a></li>
@@ -69,7 +68,7 @@
           <ul class="navigation-list">
             <li class="navigation-list-item"><a href="index.html" class="navigation-list-link">Обо мне</a></li>
             <li class="navigation-list-item"><a href="work.html" class="navigation-list-link">Мои Работы</a></li>
-            <li class="navigation-list-item"><a href="#" class="navigation-list-link active">Обратная связь</a></li>
+            <li class="navigation-list-item last"><a href="feedback.html" class="navigation-list-link active">Обратная связь</a></li>
           </ul>
 
         </nav><!-- END NAVIGATION -->
@@ -78,9 +77,9 @@
           <address class="contacts">
             <h2 class="contacts-header">Контакты</h2>
             <ul class="contacts-list">
-              <li class="contacts-list-item"><a href="#" class="contacts-list-link link-email"><span class="link-email-underline">successkana@gmail.com</span></a></li>
-              <li class="contacts-list-item"><a href="#" class="contacts-list-link link-phone">+79539273971</a></li>
-              <li class="contacts-list-item"><a href="#" class="contacts-list-link link-skype">ir0kr_</a></li>
+              <li class="contacts-list-item"><a href="mailto:successkana@gmail.com" class="contacts-list-link link-email"><span class="link-email-underline">successkana@gmail.com</span></a></li>
+              <li class="contacts-list-item"><a href="tel:+79539273971" class="contacts-list-link link-phone"><span class="link-tel-underline">+79539273971</span></a></li>
+              <li class="contacts-list-item last-item"><a href="callto:iR0kr_" class="contacts-list-link link-skype"><span class="link-skype-underline">ir0kr_</span></a></li>
             </ul>
           </address><!-- END CONTACTS -->
 
@@ -116,7 +115,7 @@
                   </label>
                   <div class="row">
                     <div class="captcha-img">
-                      <img src="img/captcha.png" height="66" width="173" alt="" class="captcha-image">
+                      <img src="img/captcha.png" alt="captcha" class="captcha-image">
                     </div>
                     <input type="text" id="code" placeholder="Введите код" class="captcha-code">
                   </div>
@@ -124,11 +123,11 @@
 
                 <div class="row btn-group">
                   <div class="btn pull-left">
-                    <button type="button" class="btn-send">Отправить</button>
+                    <input type="button" class="btn-send" value="Отправить"></input>
                   </div>
 
                   <div class="btn pull-right">
-                    <button type="button" class="btn-clear">Очистить</button>
+                    <input type="reset" class="btn-clear" value="Очистить"></input>
                   </div>
                 </div>
               </form>
@@ -142,12 +141,13 @@
 
     </div><!-- END CONTAINER -->
 
+    <!-- FOOTER -->
     <footer class="main-footer">
     <div class="container">
       <div class="lock-block"><a href="" class="lock">Вход</a></div>
       <div class="copyright">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его!</div>
     </div>
-  </footer>
+  </footer><!-- END FOOTER -->
 
 
 <script src="bower/jquery/dist/jquery.js"></script>
