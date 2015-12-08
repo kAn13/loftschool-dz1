@@ -1,6 +1,7 @@
 .about-me__block.feedback .about-me__header{
   font-family: "OpenSansRegular";
   letter-spacing: 0;
+  font-weight: 400;
 }
 
 .feedback-form .label-name {
