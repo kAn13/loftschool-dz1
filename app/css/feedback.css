@@ -38,6 +38,10 @@
   box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.35),inset 0px 2px 2px 0px rgba(114, 112, 112, 0.1);
 }
 
+.feedback-form .input-field:focus {
+  background: #fff;
+}
+
 .feedback-form .form-group:first-child {
   margin-right: 19px;
   margin-bottom: 14px;
@@ -71,6 +75,10 @@
   background-image: -webkit-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
   box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.35),inset 0px 2px 2px 0px rgba(114, 112, 112, 0.1);
+}
+
+.feedback-form .textarea-field:focus {
+  background: #fff;
 }
 
 .captcha-title {
@@ -117,6 +125,10 @@
   box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.35),inset 0px 2px 2px 0px rgba(114, 112, 112, 0.1);
   padding: 6px 8px 7px 8px;
   width: 192px;
+}
+
+.form-group-captcha .captcha-code:focus {
+  background: #fff;
 }
 
 .form-group-captcha {

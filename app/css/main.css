@@ -42,7 +42,7 @@ html, body {
 }
 
 body {
-  background: url(../img/bg-body.jpg) repeat;
+  background: url(../img/bg-body.jpg) center center  no-repeat;
   background-size: cover;
   background-attachment: fixed;
   font-family: "OpenSansSemiBold", sans-serif;
@@ -274,7 +274,7 @@ content: "";
   position: absolute;
   background-color: #dcb15d;
   width: 1px;
-  height: 23px;
+  height: 58%;
   left: 53px;
   top: -2px;
   transform: rotate(-24deg);
@@ -282,23 +282,22 @@ content: "";
 }
 
 .contacts .contacts-list-item:after {
-content: "";
-  display: block;
+  content: "";
   position: absolute;
   background-color: #dcb15d;
   width: 1px;
-  height: 23px;
+  height: 58%;
   left: 53px;
   bottom: -2px;
   transform: rotate(24deg);
-  z-index: 10;
+  z-index: 8;
 }
 
 .contacts .contacts-list-link {
   display: block;
   text-decoration: none;
   color: #727070;
-  padding: 8px 47px 10px 97px;
+  padding: 8px 15px 10px 70px;
   font-size: 1em;
   position: relative;
   background-color: #fcfbfb;
@@ -329,35 +328,37 @@ content: "";
   position: relative;
 }
 
-.contacts .contacts-list-link:hover {
+/*.contacts .contacts-list-link:hover {
   text-decoration: underline;
 }
-
+koro4e Zaru eto ne ponravilos
+*/
 
 .contacts .contacts-list-link:before {
   content: "";
   position: absolute;
-  top: 11px;
+  top: 50%;
   left: 18px;
   background: url(../img/spritebox-1.png) no-repeat;
   background-position: -0px -5px;
   height: 12px;
   width: 16px;
   display: block;
+  margin-top: -6px;
 }
 
 .contacts .contacts-list-link.link-phone:before {
   background-position: -76px -4px;
   height: 21px;
   width: 16px;
-  top: 7px;
+  margin-top: -10.5px;
 }
 
 .contacts .contacts-list-link.link-skype:before {
   background-position: -36px -4px;
   height: 19px;
-  width: 19px
-  top: 8px;
+  width: 19px;
+  margin-top: -9.5px;
 }
 
 /* END SIDEBAR */
@@ -396,12 +397,6 @@ content: "";
 
 .desc-content .desc-content-items,
 .skills .skills-items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.skills-items {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -464,7 +459,7 @@ content: "";
   max-width: 142px;
 }
 
-.skills-items {
+.skills .skills-items {
   max-width: 243px;
   padding-top: 3px;
 
@@ -490,7 +485,7 @@ content: "";
   font-family: "OpenSansRegular";
 }
 
-.skills-items .skills-item {
+.skills .skills-item {
   background-image: -moz-linear-gradient( 90deg, rgb(233,230,228) 0%, rgb(251,249,249) 94%, rgb(255,255,255) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(233,230,228) 0%, rgb(251,249,249) 94%, rgb(255,255,255) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(233,230,228) 0%, rgb(251,249,249) 94%, rgb(255,255,255) 100%);
@@ -513,7 +508,7 @@ content: "";
   margin-left: 14px;
 }
 
-.skills-items .skills-item:before{
+.skills .skills-item:before{
     content: "";
     width: 8px;
     height: 18px;
@@ -609,6 +604,7 @@ content: "";
 
 
 .main-footer {
+  font-family: "OpenSansLight";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -621,6 +617,8 @@ content: "";
   font-size: 12px;
   color: #727070;
   min-width: 1200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .main-footer>.container {
@@ -641,6 +639,8 @@ content: "";
   text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.85);
   padding-left: 28px;
   font-size: 14px;
+  font-family: "OpenSansBold";
+  line-height: 20px;
 }
 
 .lock-block .lock:before {
@@ -661,4 +661,7 @@ content: "";
 
 .copyright {
   padding-top: 20px;
+  margin: 0 250px;
+  font-size: 12px;
+  line-height: 18px;
 }
