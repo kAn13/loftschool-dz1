@@ -66,9 +66,9 @@
         <nav class="navigation">
 
           <ul class="navigation-list">
-            <li class="navigation-list-item"><a href="/index.html" class="navigation-list-link">Обо мне</a></li>
-            <li class="navigation-list-item"><a href="/work.html" class="navigation-list-link active">Мои Работы</a></li>
-            <li class="navigation-list-item last"><a href="/feedback.html" class="navigation-list-link">Обратная связь</a></li>
+            <li class="navigation-list-item"><a href="index.html" class="navigation-list-link">Обо мне</a></li>
+            <li class="navigation-list-item"><a href="work.html" class="navigation-list-link active">Мои Работы</a></li>
+            <li class="navigation-list-item last"><a href="feedback.html" class="navigation-list-link">Обратная связь</a></li>
           </ul>
 
         </nav><!-- END NAVIGATION -->
@@ -113,9 +113,6 @@
                 <div class="project-container"><a href="" class="project">Добавить проект</a></div>
               </li>
 
-
-
-
             </ul>
           </div>
         </section>
@@ -124,7 +121,48 @@
 
     </main><!-- END MAIN-CONTENT -->
 
+    <!-- MODAL -->
+    <div class="modal-content">
+      <h3 class="modal-content-title">Добавление проекта</h3>
+      <form action="" class="add-project-form">
+
+        <div class="btn-group">
+          <button type="button" class="btn-close"></button>
+        </div>
+
+        <div class="form-group">
+          <label for="project-name" class="label-name">Название проекта</label>
+          <input type="text" id="project-name" class="input-field" placeholder="Введите название">
+        </div>
+
+        <div class="form-group">
+          <label for="project-picture" class="label-name label-picture">Картинка проекта
+            <div class="fake-input" for="project-picture">Загрузите изображение</div>
+          </label>
+
+          <input type="file" id="project-picture" class="input-field input-field-none">
+        </div>
+
+        <div class="form-group form-group-url">
+          <label for="project-url" class="label-name">URL проекта</label>
+          <input type="text" id="project-url" class="input-field" placeholder="Добавьте ссылку">
+        </div>
+
+        <div class="form-group">
+          <label for="project-textarea" class="label-name">Описание</label>
+          <textarea id="project-textarea" class="textarea-field" placeholder="Пара слов о Вашем проекте"></textarea>
+        </div>
+
+        <div class="btn">
+          <input type="button" class="btn-add-project" value="Добавить">
+        </div>
+      </form>
+
+    </div><!-- END MODAL -->
+
     </div><!-- END CONTAINER -->
+
+
 
 
     <!-- FOOTER -->
@@ -136,8 +174,11 @@
     </footer><!-- END FOOTER -->
 
 
+
+
 <script src="bower/jquery/jquery.js"></script>
 <script src="bower/jquery-placeholder/jquery.placeholder.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/add-project.js"></script>
 </body>
 </html>

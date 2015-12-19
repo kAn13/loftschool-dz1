@@ -115,3 +115,189 @@
   background-image: -ms-linear-gradient( 90deg, rgb(194,192,192) 0%, rgb(227,225,225) 87%, rgb(230,228,228) 90%, rgb(232,231,231) 100%);
   box-shadow: inset 0px -2px 3px 0px rgba(41, 41, 41, 0.05);
 }
+
+
+/*MODAL*/
+
+.modal-content {
+  width: 364px;
+  margin: 0 auto;
+  letter-spacing: -0.4px;
+  display: none;
+}
+
+.modal-content-title {
+  font-size: 12px;
+  font-family: "OpenSansLight";
+  color: #f8f7f6;
+  margin: 0;
+  padding-left: 23px;
+  line-height: 12px;
+  padding-bottom: 5px;
+  letter-spacing: -0.4px;
+}
+
+.add-project-form {
+  position: relative;
+  background-color: #f8f7f6;
+  padding: 20px 21px 27px;
+  font-size: 14px;
+  color: #727070;
+  border-radius: 5px;
+  border: 1px solid #d2d2d2;
+  box-shadow: 0px 11px 27px 0px rgba(159, 159, 159, 0.75),inset 0px 6px 6px 0px rgba(255, 255, 255, 0.004);
+  background-image: -webkit-linear-gradient(bottom,#f0eeed 0,#fbfbfa 100%);
+  background-image: linear-gradient(to top,#f0eeed 0,#fbfbfa 100%);
+}
+
+
+.modal-content .input-field {
+  font-family: "OpenSansLight";
+  width: 320px;
+  border: 1px solid #d6d5d3;
+  outline: 0;
+  font-size: 12px;
+  color: #c7c6c6;
+  padding: 9px 9px 13px 9px;
+  border-radius: 4px;
+  background-image: -moz-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.35),inset 0px 2px 2px 0px rgba(114, 112, 112, 0.1);
+}
+
+.modal-content .input-field:focus,
+.modal-content .textarea-field:focus {
+  background: #fff;
+}
+
+.modal-content .input-field-none {
+  display: none;
+}
+
+.modal-content .fake-input {
+  position: relative;
+  font-family: "OpenSansLight";
+  width: 320px;
+  border: 1px solid #d6d5d3;
+  background-color: #fff;
+  font-size: 12px;
+  color: #c7c6c6;
+  padding: 9px 52px 13px 9px;
+  margin-top: 9px;
+  border-radius: 4px;
+  letter-spacing: 0;
+  background-image: -moz-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.35),inset 0px 2px 2px 0px rgba(114, 112, 112, 0.1);
+}
+
+.modal-content .fake-input:after {
+  content: "";
+  position: absolute;
+  width: 52px;
+  height: 39px;
+   background-image: -moz-linear-gradient( 90deg, rgb(233,230,229) 0%, rgb(251,249,249) 94%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(233,230,229) 0%, rgb(251,249,249) 94%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(233,230,229) 0%, rgb(251,249,249) 94%, rgb(255,255,255) 100%);
+  box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.07),inset 0px -2px 3px 0px rgba(41, 41, 41, 0.05);
+  background: url(../img/add-project-sprite.png) 4px -36px no-repeat;
+  right: 0;
+  top: 0;
+  border-left: 1px solid #bebdbd;
+  cursor: pointer;
+}
+
+.modal-content .fake-input:hover:after {
+  opacity: .7;
+}
+
+.bg_form {
+  border-radius: 5px;
+  background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  box-shadow: 0px 11px 27px 0px rgba(159, 159, 159, 0.75),inset 0px 6px 6px 0px rgba(255, 255, 255, 0.004);
+  position: absolute;
+  left: 518px;
+  top: 444px;
+  width: 362px;
+  height: 461px;
+  z-index: 247;
+}
+
+
+.modal-content .textarea-field {
+  margin-bottom: 9px;
+  resize: none;
+  outline: 0;
+  font-family: "OpenSansLight";
+  font-size: 12px;
+  color: #c7c6c6;
+  padding: 9px;
+  border-radius: 4px;
+  border: 1px solid #d6d5d3;
+  width: 320px;
+  height: 111px;
+  background-image: -moz-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(233,231,231) 0%, rgba(251,249,249,0) 100%);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.35),inset 0px 2px 2px 0px rgba(114, 112, 112, 0.1);
+}
+
+.modal-content .label-name {
+  display: block;
+  margin-bottom: 9px;
+}
+
+.modal-content .form-group:first-child,
+.modal-content .label-picture,
+.modal-content .form-group-url {
+  margin-bottom: 6px;
+}
+
+
+.modal-content .btn {
+  text-align: center;
+  margin-right: 18px;
+}
+
+.modal-content .btn-add-project {
+  border-radius: 5px;
+  background-image: -moz-linear-gradient( 90deg, rgb(67,183,150) 0%, rgb(128,232,203) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(67,183,150) 0%, rgb(128,232,203) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(67,183,150) 0%, rgb(128,232,203) 100%);
+  box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.16),inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
+  border: 1px solid #4bb496;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+  font-size: 14px;
+  color: #1e7465;
+  padding: 8px 26px 9px;
+  outline: 0;
+}
+
+.modal-content .btn-add-project:hover {
+  background-image: -moz-linear-gradient( 90deg, rgb(58,160,135) 0%, rgb(95,220,189) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(58,160,135) 0%, rgb(95,220,189) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(58,160,135) 0%, rgb(95,220,189) 100%);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
+}
+
+.modal-content .btn-group {
+  position: absolute;
+  right: 6px;
+  top: 7px;
+}
+
+.btn-group .btn-close {
+  border: none;
+  width: 14px;
+  height: 14px;
+  background: transparent url(../img/add-project-sprite.png) -10px -10px no-repeat;
+  outline: 0;
+}
+
+.btn-group .btn-close:hover {
+  opacity: .7;
+}

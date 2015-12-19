@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+
+  * {
+    box-sizing: border-box;
+  }
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .modal-content {
+    max-width: 364px;
+    margin: 0 auto;
+    padding: 25px 22px;
+    background-color: lightblue;
+  }
+
+  .modal-title {
+    margin: 0;
+    padding: 0;
+  }
+
+  input[type=file] {
+    display: none;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="modal-content">
+      <h3 class="modal-title">Добавление проекта</h3>
+      <form action="" class="add-project-form">
+
+        <div class="form-group">
+          <label for="project-name">Название проекта</label>
+          <input type="text" id="project-name" class="modal-input-field" placeholder="Введите название">
+        </div>
+
+        <div class="form-group">
+          <label for="project-picture">Картинка проекта</label>
+          <div class="modal-file-text">Загрузите изображение</div>
+          <input type="file" id="project-picture" class="modal-file-field" placeholder="Загрузите изображение">
+        </div>
+
+        <div class="form-group">
+          <label for="project-url">URL проекта</label>
+          <input type="text" id="project-url" class="modal-input-url" placeholder="Добавьте ссылку">
+        </div>
+
+        <div class="form-group">
+          <label for="project-textarea">Описание</label>
+          <textarea id="project-textarea" class="modal-textarea" placeholder="Коротко о Вашем проекте"></textarea>
+        </div>
+
+        <div class="btn"><input type="button" class="btn-add-project" value="Добавить"></div>
+      </form>
+
+    </div>
+  </div>
+
+
+</body>
+</html>
