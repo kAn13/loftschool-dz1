@@ -13,7 +13,10 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <!-- bower CSS -->
-  <link rel="stylesheet" href="bower/normalize-css/normalize.css">
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower/normalize-css/normalize.css" />
+  <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css" />
+  <!-- endbower -->
   <!-- FONTS -->
   <link rel="stylesheet" href="fonts/stylesheet.css">
   <!-- CSS -->
@@ -95,18 +98,18 @@
                 <div class="row">
                   <div class="form-group">
                     <label for="name" class="label-name">Имя</label>
-                    <input type="text" id="name" class="input-field" placeholder="Как к Вам обращаться">
+                    <input type="text" id="name" class="input-field valid" data-tooltip-text="введите имя" data-my="right center" data-at="left center" placeholder="Как к Вам обращаться">
                   </div>
 
                   <div class="form-group">
                     <label for="email" class="label-name">Email</label>
-                    <input type="text" id="email" class="input-field" placeholder = "Куда мне писать">
+                    <input type="text" id="email" class="input-field valid" data-tooltip-text="введите email" data-my="left center" data-at="right center" placeholder = "Куда мне писать">
                   </div>
                 </div>
 
                 <div class="form-group-message">
                   <label for="textarea" class="label-name">Сообщение</label>
-                  <textarea name="textarea" id="textarea" class="textarea-field" placeholder="Кратко в чем суть"></textarea>
+                  <textarea name="textarea" id="textarea" class="textarea-field valid" data-tooltip-text="ваш вопрос" data-my="left center" data-at="right center" placeholder="Кратко в чем суть"></textarea>
                 </div>
 
                 <div class="form-group-captcha row">
@@ -117,17 +120,17 @@
                     <div class="captcha-img">
                       <img src="img/captcha.png" alt="captcha" class="captcha-image">
                     </div>
-                    <input type="text" id="code" placeholder="Введите код" class="captcha-code">
+                    <input type="text" id="code" placeholder="Введите код" class="captcha-code valid" data-tooltip-text="введите">
                   </div>
                 </div>
 
                 <div class="row btn-group">
                   <div class="btn pull-left">
-                    <input type="button" class="btn-send" value="Отправить">
+                    <button type="button" class="btn-send" value="Отправить">Отправить</button>
                   </div>
 
                   <div class="btn pull-right">
-                    <input type="reset" class="btn-clear" value="Очистить">
+                    <button type="reset" class="btn-clear" value="Очистить">Очистить</button>
                   </div>
                 </div>
               </form>
@@ -150,8 +153,12 @@
   </footer><!-- END FOOTER -->
 
 
+<!-- bower:js -->
 <script src="bower/jquery/jquery.js"></script>
-<script src="bower/jquery-placeholder/jquery.placeholder.min.js"></script>
+<script src="bower/bPopup/jquery.bpopup.js"></script>
+<script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
+<script src="bower/qtip2/jquery.qtip.js"></script>
+<!-- endbower -->
 <script src="js/main.js"></script>
 </body>
 </html>

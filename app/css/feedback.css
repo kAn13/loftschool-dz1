@@ -194,5 +194,19 @@
 
 
 .about-me__block.feedback .about-me__desc {
-  padding-bottom: 275px;
+  min-height: 786px;
+}
+
+
+.input-field.error {
+  box-shadow: 0 0 2px 1px rgba(203,105,69,.7);
+}
+
+
+.fake-input.error {
+  box-shadow: 0 0 2px 1px rgba(203,105,69,.7);
+}
+
+.textarea-field.error {
+  box-shadow: 0 0 2px 1px rgba(203,105,69,.7);
 }

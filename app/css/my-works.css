@@ -123,6 +123,10 @@
   width: 364px;
   margin: 0 auto;
   letter-spacing: -0.4px;
+  padding-bottom: 150px;
+}
+
+#modal-form-content {
   display: none;
 }
 
@@ -290,7 +294,7 @@
   top: 7px;
 }
 
-.btn-group .btn-close {
+.btn-group .b-close {
   border: none;
   width: 14px;
   height: 14px;
@@ -298,6 +302,32 @@
   outline: 0;
 }
 
-.btn-group .btn-close:hover {
+.btn-group .b-close:hover {
   opacity: .7;
+}
+
+
+/*TOOLTIP*/
+
+.divider {
+  margin: 50px;
+}
+
+.main-footer {
+  display: none;
+}
+
+
+
+.input-field.error {
+  box-shadow: 0 0 2px 1px rgba(203,105,69,.7);
+}
+
+
+.fake-input.error {
+  box-shadow: 0 0 2px 1px rgba(203,105,69,.7);
+}
+
+.textarea-field.error {
+  box-shadow: 0 0 2px 1px rgba(203,105,69,.7);
 }

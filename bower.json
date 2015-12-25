@@ -1,8 +1,24 @@
 {
   "name": "sadykov_dz1",
   "dependencies": {
-    "jquery": "~2.1.4",
+    "jquery": "1.9.1",
     "normalize-css": "normalize.css#~3.0.3",
-    "modernizer": "~2.8.2"
+    "modernizer": "~2.8.2",
+    "bPopup": "bpopup#~0.11.0",
+    "jquery-placeholder": "~2.3.1",
+    "qtip2": "~2.2.1"
+  },
+
+  "overrides": {
+    "qtip2": {
+      "main": [
+        "./jquery.qtip.js",
+        "./jquery.qtip.css"
+      ],
+
+      "dependencies": {
+        "jquery": ">=1.6.0"
+      }
+    }
   }
 }
